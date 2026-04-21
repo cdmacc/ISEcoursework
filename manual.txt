@@ -1,0 +1,3 @@
+Running main.py (no arguments needed) will run my evolutionary solution on every .csv file inside the datasets folder and print out the Best Solution it found and its performance with a budget of 100 comparisons. 
+
+The .csv files must be have any number of columns that correspond to the configuration options with the last column being labelled 'performance' which corresponds to the performance metric to be optimised. 

@@ -1,0 +1,8 @@
+To replicate my results found in section 5 of my report, you will need to run vs.py (no arguments needed). This will run both the baseline solution and my evolutionary solution 30 times on each dataset in the datasets folder and print out: 
+- median for the baseline and evolutionary solution
+- 1st quartile for the baseline and evolutionary solution
+- 3rd quartile for the baseline and evolutionary solution
+- p-value given when comparing the set of results from both solutions using the Wilcoxon rank-sum test 
+- Whether we reject H0 at the level of significance 0.05 using the given p value
+
+for each dataset. One run of this gave all information inside of the table in Section 5 of my report.
