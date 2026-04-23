@@ -209,7 +209,7 @@ def main():
 
     results = {}
     for file_name in os.listdir(datasets_folder):
-        if file_name.endswith("Apache.csv"):
+        if file_name.endswith(".csv"):
             file_path = os.path.join(datasets_folder, file_name)
             best_solution, best_performance = EvoluationarySearch(file_path, budget)
             results[file_name] = {
